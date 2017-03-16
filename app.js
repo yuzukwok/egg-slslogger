@@ -1,4 +1,4 @@
-const slsTransports = require('./slsTransport')
+const slsTransports = require('./lib/slsTransport')
 module.exports = app => {
   let SlsTransport = slsTransports(app)
 

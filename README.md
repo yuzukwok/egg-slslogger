@@ -30,6 +30,8 @@ Description here.
 $ npm i egg-slslogger --save
 ```
 
+依赖 egg-logger 插件必须开启
+
 ## Usage
 
 ```js
@@ -45,6 +47,12 @@ exports.slslogger = {
 ```js
 // {app_root}/config/config.default.js
 exports.slslogger = {
+      accessKeyId: '**',
+      secretAccessKey: '**',
+      endpoint: 'http://cn-hangzhou.sls.aliyuncs.com',
+      apiVersion: '2015-06-01',
+      slsProject: '**',
+      logStoreName: '**'
 };
 ```
 
@@ -56,7 +64,7 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+Please open an issue [here](https://github.com/yuzukwok/egg-slslogger/issues).
 
 ## License
 
