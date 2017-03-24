@@ -1,10 +1,9 @@
 {
   "name": "egg-slslogger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "aliyun sls logger",
   "eggPlugin": {
-    "name": "slslogger",
-    "dependencies":["logger"]
+    "name": "slslogger"
   },
   "keywords": [
     "egg",
@@ -12,7 +11,6 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "egg-logger": "^1.5.0"
   },
   "devDependencies": {
     "autod": "^2.7.1",
